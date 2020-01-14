@@ -1,0 +1,17 @@
+.workout-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .workout-list > * {
+    width: 90%;
+    margin: 10%;
+  }
+
+  table {
+    width: 50%;
+  }
+
+  button{
+    margin: 6px 8px 6px 8px;
+  }
