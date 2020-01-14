@@ -22,6 +22,16 @@
   font-size: large;
 }
 
+.Btn-test {
+  padding:8px 16px;
+  color: white;
+  align-items:center;
+  width:auto;
+  border:none;
+  display:block;
+  outline:0;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

@@ -13,8 +13,8 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Welcome to React</h1>
             <ul>
-              <Link to="/chat" className="btn btn-link">Chat</Link>
-              <Link to="/test" className="btn btn-link">Test</Link>
+              <Link to="/chat" className="Btn-test">Chat</Link>
+              <Link to="/test" className="Btn-test">Test</Link>
             </ul>
           </header>
         </div>
