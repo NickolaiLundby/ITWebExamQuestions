@@ -1,0 +1,35 @@
+$blue: #0000FF;
+$black: #000000;
+$font: 1.5em;
+
+@mixin flex-column($color: #FFFFFF, $direction: column) {
+    display: flex;
+    flex-direction: $direction;
+    background-color: $color;
+}
+
+.App {
+    @include flex-column();
+    text-align: center;
+}
+  
+.App-header {
+    @include flex-column($black);
+    color: white;
+}
+  
+.App-title {
+    font-size: $font;
+}
+  
+.navbar {
+    @include flex-column($blue, row);
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nav-btn{
+    @extend .App-title;
+    color: white;
+}

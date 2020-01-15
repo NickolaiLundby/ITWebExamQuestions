@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.navbar {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  
+}
+
+.nav-btn{
+  font-size: 1.5em;
+  color: white;
+}
