@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.scss'
 import Chat from './Chat'
+import Hest from './Hest'
 import {BrowserRouter, Switch, Route, Link} from 'react-router-dom'
 
 class App extends Component {
@@ -12,15 +13,13 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
           <div className="navbar">
             <Link to="/chat" className="nav-btn">Chat</Link>
-            <Link to="/test" className="nav-btn">Test</Link>
+            <Link to="/hest" className="nav-btn">Hest</Link>
           </div>
         </header>
         <div>
           <Switch>
             <Route path="/chat" component={Chat}/>
-            <Route path ="/test">
-              <p>Hej fra test</p>
-            </Route>
+            <Route path ="/hest" component={Hest}/>
           </Switch>
         </div>
       </BrowserRouter>
